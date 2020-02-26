@@ -8,10 +8,10 @@ class AgentConfig(object):
   policy = 'deterministic'
   ep_greedy = True
 
-  beta = 0.9  # percentage of immediate reward according to label information
+  beta = 0.7  # percentage of immediate reward according to label information
   delay = True
 
-  path_length = 10
+  path_length = 100
   inference_path_length = 0
   path_history = 2
   n_max = 5
@@ -23,7 +23,6 @@ class AgentConfig(object):
 
   n_neig = 50
 
-  # max_step = 5000 * scale
   max_step = 3000000
   memory_size = 500
   batch_ratio = 0.9
@@ -32,8 +31,7 @@ class AgentConfig(object):
   cnn_format = 'NCHW'
   discount = 0.1
   target_q_update_step = 1 * scale
-  # learning_rate = 0.00025
-  learning_rate = 1e-3
+  learning_rate = 1e-4
   learning_rate_minimum = 1e-3
   learning_rate_decay = 0.96
   learning_rate_decay_step = 10 * scale
@@ -47,7 +45,6 @@ class AgentConfig(object):
   history_length = 1
   train_frequency = 1
   learn_start = 200
-  # learn_start = 30
 
   min_delta = -1
   max_delta = 1
