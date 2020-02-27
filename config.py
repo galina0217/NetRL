@@ -13,7 +13,7 @@ class AgentConfig(object):
 
   path_length = 100
   inference_path_length = 0
-  path_history = 2
+  path_history = 10
   n_max = 5
   n_percent = 0.05
   immediate_reward_test = 0
