@@ -65,4 +65,4 @@ The help information of the main script ```main.py``` is listed as follows:
       --gpu_fraction            str, idx / # of gpu fraction e.g. 1/3, 2/3, 3/3
       --random_seed             int, value of random seed
 
-To reproduce the results that reported in the paper, we set the default parameters in ```config.py```. You can modify them when using your own dataset.
+We set the default parameters in ```config.py```. You can modify them when using your own dataset.
