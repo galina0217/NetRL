@@ -28,6 +28,7 @@ class ReplayMemory:
     self.current = 0
 
     memory_size_delay = int(self.memory_size / config.path_length)
+#     memory_size_delay = np.max([config.memory_size_min, int(memory_size_init*np.power(memory_size_decayr, i/memory_size_decays))])
     self.memory_size_delay = memory_size_delay
     self.states_delay = np.empty((memory_size_delay, config.n_features + config.n_embedding), dtype=np.float16)
     self.paths_delay_s = np.empty((memory_size_delay, p_dim), dtype=np.float16)
