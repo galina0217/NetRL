@@ -27,8 +27,8 @@ class AgentConfig(object):
   memory_size = 500
   memory_size_min = int(memory_size/path_length)  # 100
   memory_size_init = 150
-  memory_size_decayr = 0.5
-  memory_size_decays = 5
+  memory_size_decayr = 0.3
+  memory_size_decays = 2
   batch_ratio = 0.9
   batch_size = 64
   random_start = 30
