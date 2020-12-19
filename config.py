@@ -21,7 +21,7 @@ class AgentConfig(object):
   scale = 10
   display = False
 
-  n_neig = 50
+  n_neig = 100
 
   max_step = 3000000
   memory_size = 500
