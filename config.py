@@ -85,7 +85,7 @@ class EnvironmentConfig(object):
   file_em = 'data/' + env_name + '.embedding.n' + str(noisy_perc)
 
   # env_name = 'citeseer'
-  # train_split = 0.6
+  # train_split = 0.8
   # #noisy_perc = 0
   # #delayed_reward_baseline = 0.87428 #test_f1= 0.61052
   # #noisy_perc = 0.2
